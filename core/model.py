@@ -9,7 +9,7 @@ import os
 
 class Predict():
     def __init__(self, ):
-        self.model = load_model('core/models/bert_model_v1.h5',
+        self.model = load_model('bert_model_v1.h5',
                       custom_objects={'KerasLayer':hub.KerasLayer})
 
     
